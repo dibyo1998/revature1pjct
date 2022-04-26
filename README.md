@@ -13,10 +13,12 @@ The user can see the present stock of the cars, and order the cars he/she wants 
 The admin can do all the modifications to the tables, except the user table.
 The admin can delete and update only the car_details's records. All the deletion and updation will be done automitacally as per the admin's actions.
 
-Junit testing file:
-Carservicetest.java
-
 Main file:
 Carserv.java
 
-Rest 2 files of the 2 modules are Admin.java and User.java.
+Rest 2 files of the 2 modules Admin and User are Admin.java and User.java respectively.
+
+Junit testing file:
+Carservicetest.java
+
+

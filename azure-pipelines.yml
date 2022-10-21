@@ -25,9 +25,9 @@ steps:
     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'internal'
     allowPackageConflicts: true
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'test'
+# - task: DotNetCoreCLI@2
+#   inputs:
+#     command: 'test'
 - task: Docker@2
   inputs:
     command: 'buildAndPush'

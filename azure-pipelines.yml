@@ -34,5 +34,5 @@ steps:
 #     Dockerfile: '**/Dockerfile'
 - script: dotnet test
   displayName: Run unit tests
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: Build application
+# - script: dotnet build --configuration $(buildConfiguration)
+#   displayName: Build application
